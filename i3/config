@@ -16,7 +16,7 @@ smart_borders on
 for_window [class="^.*"] border pixel 2
 
 # Colors
-client.focused                  #b23241 #b23241 #c5c6c8 #3241b2
+client.focused                  #d23d3d #d23d3d #c5c6c8 #3241b2
 client.unfocused                #383a3b #383a3b #c5c6c8
 client.focused_inactive         #383a3b #383a3b #c5c6c8
 client.urgent                   #383a3b #383a3b #c5c6c8
@@ -110,7 +110,7 @@ bindsym Mod1+Return exec i3-sensible-terminal
 bindsym Mod1+Shift+q kill
 
 # start dmenu
-bindsym Mod1+d exec dmenu_run -b -sb '#b23241' -sf '#c5c6c8' -nb '#1d1f21' -nf '#c5c6c8' -fn 'Profont-10:normal'
+bindsym Mod1+d exec dmenu_run -b -sb '#d23d3d' -sf '#c5c6c8' -nb '#1d1f21' -nf '#c5c6c8' -fn 'Profont-10:normal'
 
 
 ################################
@@ -190,7 +190,7 @@ bar {
 		statusline #c5c6c8
 		separator #c5c6c8
 
-		focused_workspace               #b23241 #b23241 #c5c6c8
+		focused_workspace               #d23d3d #d23d3d #c5c6c8
 		active_workspace                #383a3b #383a3b #c5c6c8
 		inactive_workspace              #383a3b #383a3b #c5c6c8
 		urgent_workspace                #383a3b #383a3b #c5c6c8
